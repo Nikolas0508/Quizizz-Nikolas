@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Quizizz Bypass
+// @name         Nikolas Quizizz
 // @version      50.5
-// @description  Resolve questões do Quizizz
-// @author       mzzvxm
+// @description  Resolve Quizizz
+// @author       Nikolas
 // @icon         https://tse1.mm.bing.net/th/id/OIP.Ydweh29BuHk_PGD4dGJXbAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3
 // @match        https://wayground.com/join/game/*
 // @grant        none
@@ -398,8 +398,8 @@
                             headers: {
                                 'Content-Type': 'application/json',
                                 'Authorization': `Bearer ${currentKey}`,
-                                'HTTP-Referer': 'https://github.com/mzzvxm',
-                                'X-Title': 'Quizizz Bypass Script'
+                                'HTTP-Referer': 'https://github.com/Nikolas0508',
+                                'X-Title': 'Nikolas Quizizz'
                             },
                             body: body
                         });
